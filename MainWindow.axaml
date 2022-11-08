@@ -6,54 +6,54 @@
         x:Class="MolkFreeCalc_ava.MainWindow"
         Title="MölkFreeCalc v0.01" Height="585" Width="790">
     <Grid Margin="0,0,0,0">
-        <TextBlock Name="LetterField" HorizontalAlignment="Left" Height="200" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="30" FontSize="30" Font="PT Mono" Font="PT Mono"/>
-        <TextBlock Name="NumberField" HorizontalAlignment="Left" Height="200" Margin="50,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="330" FontSize="30" Font="PT Mono" Font="PT Mono"/>
-        <TextBlock Name="VarLetterField" HorizontalAlignment="Left" Height="200" Margin="390,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="34" FontSize="17" Font="PT Mono"/>
-        <TextBlock Name="VarField" HorizontalAlignment="Left" Height="200" Margin="415,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="174" FontSize="17" Font="PT Mono"/>
-        <Button Name="NumBtn_chs" Content="+/−" Click="NumCHS" HorizontalAlignment="Left" Margin="10,461,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="0" Click="NumBtn" HorizontalAlignment="Left" Margin="90,461,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Name="NumBtn_comma" Content="." Click="NumComma" HorizontalAlignment="Left" Margin="170,461,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="1" Click="NumBtn" HorizontalAlignment="Left" Margin="10,411,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="2" Click="NumBtn" HorizontalAlignment="Left" Margin="90,411,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="3" Click="NumBtn" HorizontalAlignment="Left" Margin="170,411,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="4" Click="NumBtn" HorizontalAlignment="Left" Margin="10,361,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="5" Click="NumBtn" HorizontalAlignment="Left" Margin="90,361,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="6" Click="NumBtn" HorizontalAlignment="Left" Margin="170,361,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="7" Click="NumBtn" HorizontalAlignment="Left" Margin="10,312,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="8" Click="NumBtn" HorizontalAlignment="Left" Margin="90,312,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="9" Click="NumBtn" HorizontalAlignment="Left" Margin="170,312,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="+" Click="OpBtn_binop" HorizontalAlignment="Left" Margin="250,461,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="−" Click="OpBtn_binop" HorizontalAlignment="Left" Margin="250,411,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="×" Click="OpBtn_binop" HorizontalAlignment="Left" Margin="250,361,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="÷" Click="OpBtn_binop" HorizontalAlignment="Left" Margin="250,312,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="√x" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="330,461,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="x²" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="330,411,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="ˣ√y" Click="OpBtn_binop" HorizontalAlignment="Left" Margin="330,361,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="yˣ" Click="OpBtn_binop" HorizontalAlignment="Left" Margin="330,312,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="ln x" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="410,461,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="eˣ" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="410,411,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="log x" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="410,361,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="10ˣ" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="410,312,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="tan⁻¹" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="490,461,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="cos⁻¹" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="490,411,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="sin⁻¹" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="490,361,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="tan" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="490,312,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="cos" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="490,261,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="sin" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="490,211,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="rcl A" Click="OpBtn_rcl" HorizontalAlignment="Left" Margin="570,461,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="rcl B" Click="OpBtn_rcl" HorizontalAlignment="Left" Margin="570,411,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="rcl C" Click="OpBtn_rcl" HorizontalAlignment="Left" Margin="570,361,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="sto A" Click="OpBtn_sto" HorizontalAlignment="Left" Margin="570,312,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="sto B" Click="OpBtn_sto" HorizontalAlignment="Left" Margin="570,261,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="sto C" Click="OpBtn_sto" HorizontalAlignment="Left" Margin="570,211,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="enter" Name="EnterBtn" Click="EnterBtnClick" HorizontalAlignment="Left" Margin="10,261,0,0" VerticalAlignment="Top" Width="235" FontSize="30" Font="PT Mono"/>
-        <Button Content="CLR" Click="Clr_Btn" HorizontalAlignment="Left" Margin="250,261,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="CLX" Click="Clx_Btn" HorizontalAlignment="Left" Margin="330,261,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="x⇄y" Click="OpBtn_swap" HorizontalAlignment="Left" Margin="10,211,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="x→y" Click="OpBtn_dup" HorizontalAlignment="Left" Margin="170,211,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="x←y" Click="OpBtn_drop" HorizontalAlignment="Left" Margin="90,211,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="↺" Click="OpBtn_roll" HorizontalAlignment="Left" Margin="250,211,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <Button Content="CLST" Click="Clst_Btn" HorizontalAlignment="Left" Margin="330,211,0,0" VerticalAlignment="Top" Width="75" FontSize="30" Font="PT Mono"/>
-        <TextBlock Text="Debug Output" Name="DebugTextBlock" HorizontalAlignment="Left" Height="33" Margin="10,0,0,10" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="500" Font="PT Mono"/>
+        <TextBlock Name="LetterField" HorizontalAlignment="Left" Height="200" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="30" FontSize="30"/>
+        <TextBlock Name="NumberField" HorizontalAlignment="Left" Height="200" Margin="50,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="330" FontSize="30"/>
+        <TextBlock Name="VarLetterField" HorizontalAlignment="Left" Height="200" Margin="390,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="34" FontSize="17"/>
+        <TextBlock Name="VarField" HorizontalAlignment="Left" Height="200" Margin="415,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="174" FontSize="17"/>
+        <Button Name="NumBtn_chs" Content="+/−" Click="NumCHS" HorizontalAlignment="Left" Margin="10,461,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="0" Click="NumBtn" HorizontalAlignment="Left" Margin="90,461,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Name="NumBtn_comma" Content="." Click="NumComma" HorizontalAlignment="Left" Margin="170,461,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="1" Click="NumBtn" HorizontalAlignment="Left" Margin="10,411,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="2" Click="NumBtn" HorizontalAlignment="Left" Margin="90,411,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="3" Click="NumBtn" HorizontalAlignment="Left" Margin="170,411,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="4" Click="NumBtn" HorizontalAlignment="Left" Margin="10,361,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="5" Click="NumBtn" HorizontalAlignment="Left" Margin="90,361,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="6" Click="NumBtn" HorizontalAlignment="Left" Margin="170,361,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="7" Click="NumBtn" HorizontalAlignment="Left" Margin="10,312,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="8" Click="NumBtn" HorizontalAlignment="Left" Margin="90,312,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="9" Click="NumBtn" HorizontalAlignment="Left" Margin="170,312,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="+" Click="OpBtn_binop" HorizontalAlignment="Left" Margin="250,461,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="−" Click="OpBtn_binop" HorizontalAlignment="Left" Margin="250,411,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="×" Click="OpBtn_binop" HorizontalAlignment="Left" Margin="250,361,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="÷" Click="OpBtn_binop" HorizontalAlignment="Left" Margin="250,312,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="√x" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="330,461,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="x²" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="330,411,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="ˣ√y" Click="OpBtn_binop" HorizontalAlignment="Left" Margin="330,361,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="yˣ" Click="OpBtn_binop" HorizontalAlignment="Left" Margin="330,312,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="ln x" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="410,461,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="eˣ" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="410,411,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="log x" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="410,361,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="10ˣ" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="410,312,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="tan⁻¹" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="490,461,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="cos⁻¹" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="490,411,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="sin⁻¹" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="490,361,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="tan" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="490,312,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="cos" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="490,261,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="sin" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="490,211,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="rcl A" Click="OpBtn_rcl" HorizontalAlignment="Left" Margin="570,461,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="rcl B" Click="OpBtn_rcl" HorizontalAlignment="Left" Margin="570,411,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="rcl C" Click="OpBtn_rcl" HorizontalAlignment="Left" Margin="570,361,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="sto A" Click="OpBtn_sto" HorizontalAlignment="Left" Margin="570,312,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="sto B" Click="OpBtn_sto" HorizontalAlignment="Left" Margin="570,261,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="sto C" Click="OpBtn_sto" HorizontalAlignment="Left" Margin="570,211,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="enter" Name="EnterBtn" Click="EnterBtnClick" HorizontalAlignment="Left" Margin="10,261,0,0" VerticalAlignment="Top" Width="235" FontSize="30"/>
+        <Button Content="CLR" Click="Clr_Btn" HorizontalAlignment="Left" Margin="250,261,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="CLX" Click="Clx_Btn" HorizontalAlignment="Left" Margin="330,261,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="x⇄y" Click="OpBtn_swap" HorizontalAlignment="Left" Margin="10,211,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="x→y" Click="OpBtn_dup" HorizontalAlignment="Left" Margin="170,211,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="x←y" Click="OpBtn_drop" HorizontalAlignment="Left" Margin="90,211,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="↺" Click="OpBtn_roll" HorizontalAlignment="Left" Margin="250,211,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="CLST" Click="Clst_Btn" HorizontalAlignment="Left" Margin="330,211,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <TextBlock Text="Debug Output" Name="DebugTextBlock" HorizontalAlignment="Left" Height="33" Margin="10,0,0,10" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="500"/>
     </Grid>
 </Window>
